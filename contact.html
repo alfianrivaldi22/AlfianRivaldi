@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>My Web</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    </head>
+    <body>
+        <div id="site-container">
+            <div id="header">
+                <h1><a href="index.html">Alfian Rivaldi Blog's</a></h1>
+                <p>Personal Blog's</p>
+            </div>
+            <div id="menu-content">
+                <div id="menu">
+                    <h3 class ="judul_1">Main Menu</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="penulis.html">Penulis</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div id="content">
+                    <h1 class="judul_2">Untuk berkenalan silahkan Contact Me</h1>
+                    <table border="0" bordercolor="red">
+                        <tr>
+                            <td><center><h2>Form Input Biodata</h2></center></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <form name="fm-input">
+                                    <table>
+                                        <tr>
+                                            <td><label for="nama">Nama Lengkap</label></td>
+                                            <td>:</td>
+                                            <td><input type="text" size="20" name="nama" id="nama"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label for="tll">Tempat,Tanggal Lahir</label>
+                                            </td>
+                                            <td>:</td>
+                                            <td>
+                                                <input type="text" size="20" name="nama"/>,
+                                                <input type="text" size="2" name="tgl"/>/
+                                                <input type="text" size="2" name="bln"/>/
+                                                <input type="text" size="5" name="thn"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><label for="telp">No. Telp/HP</label></td>
+                                            <td>:</td>
+                                            <td><input type="text" size="20" name="telp" id="telp"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label for="jkl">Jenis Kelamin</label></td>
+                                            <td>:</td>
+                                            <td>
+                                                <input type="radio" name="jkl" value="Laki-Laki" id="laki"/>
+                                                <label for="laki">Laki-laki</label>
+                                                <input type="radio" name="jkl" value="Perempuan" id="perempuan"/>
+                                                <label for="perempuan">Perempuan</label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><label for="agama">Agama </label></td>
+                                            <td>:</td>
+                                            <td>
+                                                <select name="agama" id="agama">
+                                                <option value="">Pilih Agama</option>
+                                                <option value="Islam">Islam</option>
+                                                <option value="Kristen">Kristen</option>
+                                                <option value="Katolik">Katolik</option>
+                                                <option value="Hindu">Hindu</option>
+                                                <option value="Buddha">Buddha</option>
+                                                <option value="Konghucu">Konghucu</option>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><label for="hoby">Hoby</label></td>
+                                            <td>:</td>
+                                            <td>
+                                                <input type="checkbox" name="hoby[]" id="bacabuku" value="Baca Buku"/>
+                                                <label for="bacabuku">Baca Buku</label>
+                                                <input type="checkbox" name="hoby[]" id="olahraga" value="Olah Raga"/>
+                                                <label for="olahraga">Olah Raga</label>
+                                                <input type="checkbox" name="hoby[]" id="maingame" value="Main Game"/>
+                                                <label for="maingame">Main Game</label>
+                                                <input type="checkbox" name="hoby[]" id="hiking" value="hiking"/>
+                                                <label for="hiking">Hiking</label>
+                                            </td>
+                                            <tr>
+                                                <td><label for="pesan">Pesan dan Kesan</label></td>
+                                                <td>:</td>
+                                                <td><textarea name="pesan" id="pesan" cols="40" rows="3"></textarea></td>
+                                            </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <input type="submit" name="submit" value="Submit"/>
+                                                <input type="reset" name="reset" value="Clear!"/>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br class="floating" />
+            </div>
+            <div id="footer">
+                <p>Copy Rightt&copy;2012.</p>
+            </div>
+        </div>
+    </body>
+</html>
